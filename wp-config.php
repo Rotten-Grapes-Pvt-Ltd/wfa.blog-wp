@@ -29,10 +29,10 @@ define( 'DB_USER', 'superuser' );
 define( 'DB_PASSWORD', 'superpassword' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'wfa-blog.cxx7ki9k7ihm.eu-west-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'c)7!$YQWByr#iP(Q0EOre--H,:,;*(W9[~|/=7FqmF^}3P9hA4hs(nLxGU/>0)tQ');
-define('SECURE_AUTH_KEY',  '|bUfWKt_:h{h6(SxSg7|X+NQ,R--HpyL(S@<<p$2vMqdK9qG{a&@-zf7zPl=9>7}');
-define('LOGGED_IN_KEY',    '3xBLqJ}U.E^@iM:lxnjCa#x9siunO2hOQ|/|k`BX=q0fy([|z`v}ECB~6[_{+}+,');
-define('NONCE_KEY',        'K,*s-9c=E,r,@mBIv>.>xhs!v9m`%HW]86]#J@Q)eg6^eTcM?Il3p||$2%g$T7JU');
-define('AUTH_SALT',        '7KM-,?W7Hl2RN,;S$fH3k$resvd@LU8.)8SjDSkSws-:A*Tz-sSRCCX<Wn`aG*g]');
-define('SECURE_AUTH_SALT', 'Tp~ lZ[s.;<{Opad4|Zc_&O9VGsj&<+:wkm5q>.vF+q| YJ:tRO!]}=9cU$~/kk6');
-define('LOGGED_IN_SALT',   '|S8Gn0|Bp2e~p.[*+QRYq)jR5b=K A=Kzf)F+nB[BCRuRY-511$8[V*?jWRRj|wL');
-define('NONCE_SALT',       'L>9XQ>wllI22|Y;wsoP5V$SZFj?CW<Og_FEL#Q1rUFy&0x`uWTIOIoJFPswLUAEj');
+define( 'AUTH_KEY',         ']D5>~$C!0)p)G>OiunoS;_*.X&4I}Q^,rNr@.:6Xj7-ZNWW:;{l#eA.h0QtM$hpE' );
+define( 'SECURE_AUTH_KEY',  'B4oOBZ436!%Qmsiexk>v7oL22Cx)mmt&8FcFsf.9`_=NXQB9gLhy<aF^gz->JF=3' );
+define( 'LOGGED_IN_KEY',    'aD-6K{~j4*/ O>|R@1nVmLVb j|-aZirT=D=ydXHCd]/a?]lkl>4O&J}{-y`V1Yn' );
+define( 'NONCE_KEY',        '+`OGV)+o&SZlLNWy3e%]3Mc,R!,hUhwueswp{B>w)NeEq]d@nVgZ_Y]7a!ukTp=}' );
+define( 'AUTH_SALT',        'B|%Dul.t%AHPlPU-{AW8kl!b|$yci?Y 645]Gn:Ltz=mt:Q;!Rgdu%KQ$}b/4/mu' );
+define( 'SECURE_AUTH_SALT', '?B6zX()>Y^W}TfK3:4VN=-:xHf`%Hb9^gpNuYe?MJ-Wgn2tSJ+o7`i%=Xy9;$Ii3' );
+define( 'LOGGED_IN_SALT',   'GjPeA}:HE:rgJH4QEf0XsHoo`ve0R9mvph{alb<QMD-yP~.PA<a>[B4q8_y,>F<1' );
+define( 'NONCE_SALT',       'Sf*hhg_x{B0/85D)4{#+9F=_+D3U|{3`lIm66gxBJeOO1o`Fi_B8lSR,MF*`oL1)' );
+
 /**#@-*/
 
 /**
@@ -62,7 +63,7 @@ define('NONCE_SALT',       'L>9XQ>wllI22|Y;wsoP5V$SZFj?CW<Og_FEL#Q1rUFy&0x`uWTIO
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wfa_';
 
 /**
  * For developers: WordPress debugging mode.
